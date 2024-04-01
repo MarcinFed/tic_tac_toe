@@ -17,6 +17,7 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
 @RestController
 @Slf4j
 @AllArgsConstructor
+@CrossOrigin
 @RequestMapping("/game")
 public class GameController {
     private final GameService gameService;
